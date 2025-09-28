@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 export default function TeamList() {
   const [show, setShow] = useState(false);
-  const [team, setTeam] = useState(["Soha", "maryam"]);
+  const [team, setTeam] = useState(["Soha", "maryam", "parsa"]);
   const [name, setName] = useState("");
 
   const toggleShow = () => setShow(!show);
